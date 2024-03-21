@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    font-family:  Arial;
+    border: border-box;
+    
+    }
+
+.navbar {
+
+    height: 80px;
+    background-color: white;
+    color: rgba(2, 6, 12, 0.75);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    
+
+   
+}
+
+.left-section {
+
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+
+}
+
+.right-section {
+
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+
+}
+
+.logo {
+    height: 49px;
+    width: 164px;
+    margin-left:180px;
+ 
+
+
+}
+
+
+.navbar-icon {
+    background-image: url("Swiggy_logo.svg.png");
+    background-size: cover;
+    height: 49px;
+    width: 164px;
+    
+  
+
+
+}
+
+.line {
+
+    height: 24px;
+    color: rgb(226, 226, 231);
+    margin-left:0.5px;
+  
+    
+}
+
+.location-logo i {
+
+    color: rgb(241, 87, 0);
+}
+
+.location-logo {
+
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(2, 6, 12, 0.75);
+    margin-right: 150px;
+}
+
+.search {
+
+    height: 56px;
+    width: 550px;
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 10px;
+    
+    
+}
+
+.search-input {
+
+    
+    font-size: 0.75rem;
+    height: 24px;
+    width: 400px;
+    border: none;
+    background-color: rgb(240, 240, 245);
+    color: rgba(2, 6, 12, 0.45);
+    font-size: 1rem;
+    margin-left: 10px;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.search-icon {
+
+    color: rgba(2, 6, 12, 0.6);
+    margin-right: 16px;
+    height: 18px;
+    width:18px;
+}
+
+
+.user-icon {
+
+align-items: center;
+display: flex;
+justify-content: center;
+font-size: 50px;
+margin-right: 120px;
+
+}
+
+  /**banner**/
+
+
+  .banner {
+
+    background-image: url("Bandhan_Swiggy_Offer_Banner_02.jpg");
+    background-size: cover;
+    height: 405px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+  }
+
+  /**food items**/
+
+  .food-items {
+
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+  }
+
+
+  .mind {
+
+    margin-left: 200px;
+    width:70%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgba(2, 6, 12, 0.92);
+
+  }
+
+  .food-items i {
+
+    font-size: 1.5rem;
+       
+  }
+
+  .border {
+
+   margin-right: 100px;
+    
+  }
+
+  .border1 {
+
+    margin-right: 10px;
+     
+   }
+
+    /**menu**/
+
+   .menu {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+   }
+
+   .biriyani {
+
+    background-image: url("Biryani_2.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+    margin-left: 200px;
+
+
+
+   }
+
+   .burger {
+
+    background-image: url("Burger.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+
+
+   }
+
+   .cakes {
+
+    background-image: url("Cakes.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+
+
+   }
+
+   .dosa {
+
+    background-image: url("Dosa.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+
+
+   }
+
+   .paratha {
+
+    background-image: url("Paratha.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+
+
+   }
+
+   .pizza {
+
+    background-image: url("Pizza.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+
+
+   }
+
+   .rolls {
+
+    background-image: url("Rolls.avif");
+    background-size: cover;
+    height: 180px;
+    width:145px;
+    margin-right: 100px;
+
+
+   }
+
+   .break-line {
+
+ 
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 250px;
+    height: 50px;
+    border-top: 1.5px solid rgb(215, 209, 209);
+
+   }
+
+/**Restaurants**/
+
+
+.restaurant {
+
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.restaurant i {
+
+    font-size: 1.5rem;
+
+}
+
+
+
+
+ 
+
+
+   .menu-restaurant {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+   }
+
+   .box-img {
+    
+    background-size: cover;
+    height: 208px;
+    width: 312px;
+    border-radius: 20px;
+    margin-top: 25px;
+   
+    
+    }
+
+
+    .sangeetha {
+
+        margin-left:150px;
+    }
+
+
+    .main {
+
+        font-weight: bold;
+    }
+
+
+    .box-content {
+
+       
+        font-weight: bold;
+        color:rgba(2, 6, 12, 0.75);
+        margin-top: 25px;
+
+        
+       
+        
+    }
+
+
+
+    .box-content i {
+
+    color: green;
+
+
+}
+
+
+   .sub {
+
+    color: rgba(2, 6, 12, 0.6);
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 1px;
+
+   }
+
+/**food-culture**/
+
+
+   .food-culture p {
+
+    margin-left : 250px;
+   }
+
+
+   .border-box {
+
+    box-sizing: border-box;
+    height: 212px;
+    border: 1.5px solid rgb(215, 209, 209);
+    margin-left : 250px;
+    margin-top: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+   }
+
+
+
+    .border-box h1 {
+
+    margin-top: 3rem;
+    color: rgba(2, 6, 12, 0.6);
+    font-weight: 200px;
+    font-size: 1.75rem;
+    padding-left:10px;
+
+
+    }
+
+    .border-box p {
+
+
+        margin-top: 30px;
+        padding-left:10px;
+        color:rgba(2, 6, 12, 0.6);
+        font-size: 0.89rem;
+    }
+
+
+    .border-box h4 {
+
+        margin-top: 30px;
+        color:rgb(241, 87, 0);
+        padding-left:10px;
+
+
+
+    }
+
+    .popular-dishes p {
+
+        margin-top: 50px;
+        margin-left:250px;
+    }
+   
+
+    /**Popular dishes in chennai**/
+
+
+    .panel1 {
+
+
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-left:400px;
+        height:220px;
+        width:833px;
+        display: flex; 
+  
+
+    }
+
+    .panel1 a {
+
+        height: 50px;
+        width:260px;
+        box-sizing: border-box;
+        border: 1.5px solid rgb(215, 209, 209);
+        border-radius: 10px;
+        display: block; 
+        font-size: 1rem;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        font-weight: 700px;
+        color: rgba(2, 6, 12, 0.75);
+        text-align: center;
+        padding-top: 12px;
+
+    }
+
+
+    /**footer**/
+
+
+    .box1{
+
+        display: flex;
+        justify-content: space-evenly;
+        height:105px;
+        background-color:rgb(240, 240, 245);
+
+    }
+
+
+
+    .footer1-img {
+
+        height:64px;
+        width:201px;
+        background-size: cover;
+        margin-top: 20px;
+    
+       
+    }
+
+    .box1 p {
+
+        color: rgba(2, 6, 12, 0.75);
+        font-weight: bolder;
+        font-size: 1.5rem;
+        width:25%;
+        margin-top: 20px;
+        margin-left: 380px;
+    }
+
+    .second {
+
+        margin-right:130px;
+    }
+
+    .first {
+
+        margin-left:200px;
+    }
+
+    .box2 {
+
+        height:472px;
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    .list  {
+
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        color:rgba(255, 255, 255, 0.6);
+        width: 80%;
+        
+    }
+
+
+
+
+
+    .footer2-img {
+
+        height: 49px;
+        width: 167px;
+        margin-bottom: 10px;
+        margin-top:1px;
+        background-size: cover;
+        
+        
+        
+    
+       
+    }
+
+    .box2 a {
+
+        display: block;
+        margin-top: 10px;
+        
+
+
+    }
+
+
+    .box2 p {
+
+        font-weight: bolder;
+        color: white;
+        font-size: 1.1rem;
+        margin-top: 50px;
+    }
+
+
+    .copyrights {
+
+        margin-left: 300px;
+        font-size: 1rem;
+        font-weight: 250px;
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
